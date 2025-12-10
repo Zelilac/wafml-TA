@@ -1,0 +1,126 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.env.local
+.env.*.local
+
+# Laravel (evote-2)
+evote-2/.env
+evote-2/.env.*.php
+evote-2/vendor/
+evote-2/node_modules/
+evote-2/public/hot
+evote-2/public/storage
+evote-2/storage/debugbar/
+evote-2/bootstrap/cache/
+evote-2/storage/logs/
+evote-2/.env.backup
+evote-2/.phpunit.result.cache
+evote-2/Homestead.json
+evote-2/Homestead.yaml
+evote-2/npm-debug.log
+evote-2/yarn-error.log
+evote-2/.mix-cache
+evote-2/package-lock.json
+evote-2/composer.lock
+
+# Python/WAF (new-WAF)
+new-WAF/__pycache__/
+new-WAF/*.py[cod]
+new-WAF/*$py.class
+new-WAF/*.so
+new-WAF/.Python
+new-WAF/build/
+new-WAF/develop-eggs/
+new-WAF/dist/
+new-WAF/downloads/
+new-WAF/eggs/
+new-WAF/.eggs/
+new-WAF/lib/
+new-WAF/lib64/
+new-WAF/parts/
+new-WAF/sdist/
+new-WAF/var/
+new-WAF/wheels/
+new-WAF/pip-wheel-metadata/
+new-WAF/share/python-wheels/
+new-WAF/*.egg-info/
+new-WAF/.installed.cfg
+new-WAF/*.egg
+new-WAF/MANIFEST
+new-WAF/venv/
+new-WAF/env/
+new-WAF/.venv
+new-WAF/.env
+new-WAF/*.pkl
+new-WAF/*.joblib
+new-WAF/models/*.pkl
+new-WAF/models/*.joblib
+new-WAF/models_xss/*.pkl
+new-WAF/models_xss/*.joblib
+new-WAF/.pytest_cache/
+new-WAF/.coverage
+new-WAF/htmlcov/
+new-WAF/.mypy_cache/
+new-WAF/.dmypy.json
+new-WAF/dmypy.json
+new-WAF/Pipfile.lock
+
+# Jupyter Notebook
+new-WAF/.ipynb_checkpoints
+new-WAF/*.ipynb_checkpoints
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Project-specific
+artifacts/
+outputs/
+.cache/
+temp/
+tmp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.backup
+
+# IDE settings
+.vscode/settings.json
+.vscode/extensions.json
+
+# Keep these
+!.gitkeep
+!.gitattributes
