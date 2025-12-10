@@ -1,0 +1,19 @@
+Decision Tree:
+              precision    recall  f1-score   support
+
+           0     0.9993    1.0000    0.9997      3052
+           1     1.0000    0.9944    0.9972       354
+
+    accuracy                         0.9994      3406
+   macro avg     0.9997    0.9972    0.9984      3406
+weighted avg     0.9994    0.9994    0.9994      3406
+
+Random Forest:
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000      3052
+           1     1.0000    1.0000    1.0000       354
+
+    accuracy                         1.0000      3406
+   macro avg     1.0000    1.0000    1.0000      3406
+weighted avg     1.0000    1.0000    1.0000      3406
