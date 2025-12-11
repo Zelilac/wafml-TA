@@ -38,6 +38,7 @@ evote-2/composer.lock
 
 # Python/WAF (new-WAF)
 new-WAF/__pycache__/
+new-WAF/app/__pycache__/
 new-WAF/*.py[cod]
 new-WAF/*$py.class
 new-WAF/*.so
